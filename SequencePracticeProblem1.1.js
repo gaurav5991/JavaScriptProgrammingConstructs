@@ -31,3 +31,13 @@
     let avg = sum/5;
     console.log("sum: "+ sum+ " avg: "+avg); 
 }
+
+//5
+const inch = 1/12;
+console.log(42 * inch + "ft");
+const meter = 0.3048;
+console.log(60 * meter + " X " + 40 * meter + " meters");
+let areaInMeters = 60*meter*40*meter;
+const noOfPlots = 25;
+const acre = 4046.86;
+console.log(areaInMeters * acre * noOfPlots + " acres");
